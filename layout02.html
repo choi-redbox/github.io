@@ -1,0 +1,206 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>homework 01</title>
+         <link rel="stylesheet" href="css/layout02.css">
+         <link rel="stylesheet" href="css/all.css">
+    </head>
+    <body>       
+        <div class="main-background">
+          <div class="flex-box">
+               <div class="flex-container">         
+                   <p class="log-menu">Shoes Shop</p>
+                   <a style="flex-grow: 10"></a>
+                   <a class="top-menu" href="#" >Service</a>
+                   <a class="top-menu" href="#" >information</a>
+                   <a class="top-menu" href="#">notic </a>           
+                </div>
+           </div>
+            <div class="main-title-box">
+                <h3 class="main-title"> Buy our shoes</h3>
+                <p class=" main-content">loekm dldicns redbox paddinw higth width font size dkslk css thrtjtemdfdm qoruddkrhksfj  skdkl</p>
+            </div>
+            <div>
+                <button class="btn" type="submit" >Buy Now</button>   
+            </div>
+                
+        </div>
+        <div class="middle-box">
+                   <div class="middle-content">
+                       <h3>슈즈를 잘사야 발이 편하다</h3>
+                       <P>새벽꿀알바 투잡하기 좋은 알바로 새벽알바가 무엇이 있을까요? 제 경험을 바탕으로 얘기해 보겠습니다^^ 1. 새벽 신문배달 2. 새벽 대리운전 3. 새벽 지하철알바 그외...</P>
+                   </div>            
+        </div>      
+<!--
+                
+                                  <div style="width: 50vw; height: 100px; background-color: antiquewhite">
+-->
+  
+     <div class="explain-container">
+         <div>
+             <i class="fas fa-shopping-cart fa-2x"></i>
+             <h4>Fast Shipping</h4>
+             <p>lorem ipsum</p>
+         </div>
+         <div>
+             <i class="fas fa-globe-americas fa-2x"></i>
+             <h4>FEBC Shipping</h4>
+             <p>We serve global customers anywhere</p>
+         </div>
+         <div>
+             <i class="fas fa-taxi fa-2x"></i>
+             <h4>Grobal</h4>
+             <p>Superior quality is not an option</p>
+         </div>
+         <div>
+             <i class="fas fa-male fa-2x"></i>
+             <h4>Fast Shipping</h4>
+             <p>Customer calls and service</p>
+         </div>         
+    </div>
+     <div style="float:none; clear: both"></div> 
+<!--   -------------------------------------------
+Pseudo-element 수도클래스 : after [가상의 공백 clear both=동일한 의미를 갖는다]
+.explain-container::after{
+    content: '';
+    display: block;
+    clear: both;
+}                -------------------------      -->
+<!-- Product ---------------------------------------------------------       -->
+        
+        
+    <input type="text" placeholder="dlskdl"> 
+<!--    placeholder="redbox" - 배경회색글씨가 나오게됨.. 텍스트삽입시 없어짐    -->
+     <progress value="20" max="100"  class="test" style="background: red;"></progress>   
+        
+        
+    <div class="product-container">            
+        <div class="product-item">
+            <div style="position: relative">
+                <div class="overray"><p>60$</p></div>
+                <img src="img/product1.jpg" >
+            </div>
+        </div>
+            <div class="product-item">
+               <div style="position: relative">
+                    <div class="overray"><p>70$</p></div>
+                    <img src="img/product2.jpg">
+                </div>
+            </div>
+            <div class="product-item">
+                <div style="position: relative">
+                        <div class="overray"><p>80$</p></div>
+                       <img src="img/product3.jpg">
+                </div>
+            </div>
+        </div>
+    <div style="float:none;clear: both"></div> 
+<!--    anymation  ---------------------------    -->
+    <div class="product-container">            
+        <div class="product-item">
+            <div style="position: relative">
+                <div class="wrap-overlay">
+                    <div class="overlay-black"> 
+                        <p>60$</p>
+                    </div>
+                </div>   
+                <img src="img/product1.jpg" >
+            </div>
+        </div>
+            <div class="product-item">
+               <div style="position: relative">
+                   <div class="wrap-overlay">
+                    <div class="overlay-black"> 
+                        <p>$80</p>
+                    </div>
+                </div>  
+                    <img src="img/product2.jpg">
+                </div>
+            </div>
+            <div class="product-item">
+                <div style="position: relative">
+                        <div class="wrap-overlay">
+                    <div class="overlay-black"> 
+                        <p>$70</p>
+                    </div>
+                </div>  
+                       <img src="img/product3.jpg">
+                </div>
+            </div>
+        </div>
+    <div style="float:none;clear: both"></div> 
+<!-- Cart -----------------------------------------------------------    -->
+      <div class="cart-background">          
+          <div class="cart-container">
+             <h3 style="height: 40px"> Your shopping Cart</h3>
+              <table class="cart-table">
+                  <thead class="cart-title">
+                      <tr>
+                          
+                          <th colspan="2"> ITEM</th>
+                          <th class="cart-amount"> AMOUNT</th>
+                          <th class="cart-price"> PRICE</th>
+                          <th class="cart-total"> TOTAL</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                       <tr>
+                          <td><img src="img/item1.png" class="img-contain" width="100px" height="60px"></td>
+                          <td><p>sony Shoe</p></td>
+                          <td>I</td>
+                          <td class="cart-price"> 70,000원</td>
+                          <td class="cart-total"> 70,000원</td>
+                      </tr>
+                       <tr>
+                          <td><img src="img/iphone.png" class="img-contain" width="100px" height="60px"></td>
+                          <td><p>sony Shoe</p></td>
+                          <td>I</td>
+                          <td class="cart-price"> 70,000원</td>
+                          <td class="cart-total"> 70,000원</td>
+                      </tr>
+                  </tbody>
+              </table>  
+               <button class="cart-btn" type="submit">Check cart </button>   
+            <a class="custom-link" href="http://naver.com">Link</a>       
+          </div>
+       </div>                  
+         <div class="form-background">
+             <div class="form-white">
+                  <h2 >contact us</h2>                  <form>
+                      <div class="form-whole">
+                            <p>Your Email</p>
+                            <input class="form-input" type="email" value="email" >
+                      </div>
+                      <div class="form-harf">
+                            <p>First Name</p>
+                            <input class="form-input" type="text" value="first name" >
+                      </div>
+                      <div class="form-harf">
+                            <p>Last Name</p>
+                            <input class="form-input" type="text" value="email" >
+                      </div>
+                      
+                      <div style="clear: both"></div>
+                     <div class="form-whole">
+                          <p>Massage</p>
+                          <textarea class="form-input">ddd</textarea>
+                      </div>
+                      <div>
+                      <div class="form-whole">
+                          <input type="checkbox" id="check"><label for="check">글씨</label> 
+                      </div>
+                      <button class="btn" type="submit">SEND</button>
+                    </div>       
+                  </form>
+             </div>
+        </div> 
+
+       
+               
+<!--     placeholder="ddddddd" /   action 정보를 보낼 경로를 정한다-->
+        
+      
+
+    </body>
+    </html>
